@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="styles.css"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="calculator">
+ 
+    <div class="calculator" media="(min-width: 100%)">
     <div class="display" id="display">0</div>
     <div class="buttons">
     <button class="button" data-value="1">1</button>
@@ -36,6 +36,9 @@
     <button class="button backspace" data-action="backspace">
       <span class="material-icons">backspace</span>
     <button class="button equals" data-action="calculate">＝</button>
+    </button>
+  
+
     </div>
   </div>
 </body>
